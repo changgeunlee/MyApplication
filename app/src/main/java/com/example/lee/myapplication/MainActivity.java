@@ -16,14 +16,23 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onButton1Clicked(View v) {
-        Toast.makeText(getApplicationContext(), "축심!!", Toast.LENGTH_LONG).show();
-
-    }
-
-    public void onButton2Clicked(View v) {
+    public void onLoginBtn1Clicked(View v) {
         Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
         startActivity(intent);
-        //Toast.makeText(getApplicationContext(), "메뉴 이동!", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "로그인!", Toast.LENGTH_LONG).show();
+
     }
+
+    public void onJoinBtn1Clicked(View v) {
+        Toast.makeText(getApplicationContext(), "회원가입!", Toast.LENGTH_LONG).show();
+    }
+
+    public void onJoinBtn2Clicked(View v) {
+        Toast.makeText(getApplicationContext(), "심판 전용 회원가입!", Toast.LENGTH_LONG).show();
+    }
+
+    public void onJoinBtn3Clicked(View v) {
+        Toast.makeText(getApplicationContext(), "네이버 회원가입!", Toast.LENGTH_LONG).show();
+    }
+
 }

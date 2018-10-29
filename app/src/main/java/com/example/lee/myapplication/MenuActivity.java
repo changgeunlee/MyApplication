@@ -14,7 +14,7 @@ public class MenuActivity extends AppCompatActivity {
 
     }
     public void onBackButtonClicked(View v) {
-        Toast.makeText(getApplicationContext(), "돌아가기 버튼 누름", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "돌아가기!", Toast.LENGTH_LONG).show();
         finish();
     }
 }
