@@ -1,3 +1,17 @@
 <resources>
+    <!-- app name -->
     <string name="app_name">축심</string>
+
+    <!-- 로그인 메뉴 버튼 이름 -->
+    <string name="login_btn">로그인</string>
+    <string name="join_btn">회원가입</string>
+    <string name="join_naver_btn">네이버 로그인</string>
+    <string name="join_google_btn">구글 로그인</string>
+    <string name="join_kakao_btn">카카오톡 로그인</string>
+
+    <!-- 메인 메뉴 탭 버튼 이름 -->
+    <string name="main_menu_board">피드</string>
+    <string name="main_menu_ref_apply">심판 섭외</string>
+    <string name="main_menu_ama_trade">아마추어 이적시장</string>
+    <string name="main_menu_my_team">나의 팀</string>
 </resources>
